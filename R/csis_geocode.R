@@ -18,7 +18,7 @@ csis_geocode <- function(address,
                                    url_simple_geocode = url_simple_geocode,
                                    geosys = geosys,
                                    constraint = constraint)
-        Sys.sleep(1)
+        Sys.sleep(1e-1)
         pb$tick()
 
         out
